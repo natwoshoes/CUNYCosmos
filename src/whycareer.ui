@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>whycareer</class>
+ <widget class="QDialog" name="whycareer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-270</x>
+     <y>-290</y>
+     <width>1251</width>
+     <height>951</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ihatethis.qrc">:/PLSWORK/cunycosexp.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>260</y>
+     <width>58</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>-30</y>
+     <width>741</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:700; color:#ff9300;&quot;&gt;Why a career in the space industry?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>431</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:700; color:#ffd479;&quot;&gt;Mission statement and purpose&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>70</y>
+     <width>421</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;At CUNY Cosmos, our mission is to ignite the curiosity and passion of CUNY students for careers in the space industry. We envision a future where every CUNY student has the opportunity to explore, engage, and excel in the exciting field of space exploration. CUNY Cosmos aims to bridge the gap between academia and the space sector, unlocking doors to limitless possibilities and propelling the next generation of space enthusiasts and professionals into the cosmos.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;&lt;br/&gt;Scientifically, the space industry allows for the exploration of our universe, answering fundamental questions about our origins, the existence of life beyond Earth, and the nature of celestial bodies. The knowledge gained from space missions contributes to our understanding of fundamental scientific principles and has the potential to drive advancements in various fields.&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;In summary, a career in the space industry is important for its contributions to scientific knowledge, technological innovation, economic growth, and national security. As a CUNY student, involvement in the space sector provides an opportunity to make meaningful contributions to these critical areas while aligning with CUNY's commitment to academic excellence and diversity.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>-120</x>
+     <y>390</y>
+     <width>321</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="astronaut.qrc">:/astronaut2/astronaut.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>490</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wanna test your knowledge on space?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quizButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>510</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TAKE QUIZ!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="astronaut.qrc"/>
+  <include location="ihatethis.qrc"/>
+ </resources>
+ <connections/>
+</ui>
