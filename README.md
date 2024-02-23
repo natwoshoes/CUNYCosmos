@@ -23,3 +23,6 @@ I was able to apply concepts that I learned in my 211H course along with learnin
 # In the future..
 
 I'd like to incorporate a database to store information.
+
+<img width="846" alt="Screen Shot 2024-02-22 at 10 12 00 PM" src="https://github.com/natwoshoes/CUNYCosmos/assets/113740828/376d3a52-9619-45c2-b743-a3f069ed3e73">
+
