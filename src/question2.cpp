@@ -36,7 +36,7 @@ void Question2::on_Mercury_clicked()
 {
     QMessageBox::information(this, "Response", "That's the correct answer!");
     ui->Mercury->setChecked(true);
-    correctAnswers++; // Use inherited correctAnswers
+    correctAnswers++;
 }
 
 void Question2::on_answerWoman_returnPressed()
@@ -44,7 +44,7 @@ void Question2::on_answerWoman_returnPressed()
     QString userInput = ui->answerWoman->text();
     if (userInput.compare("valentina", Qt::CaseInsensitive) == 0) {
         QMessageBox::information(this, "Response", "That's the correct answer!");
-        correctAnswers++; // Use inherited correctAnswers
+        correctAnswers++; 
     } else {
         QMessageBox::warning(this, "Response", "Wrong answer");
     }
@@ -72,7 +72,7 @@ void Question2::on_Enceladus_clicked()
 {
     QMessageBox::information(this, "Response", "That's the correct answer! You got all the questions correct!");
     ui->Enceladus->setChecked(true);
-    correctAnswers++; // Use inherited correctAnswers
+    correctAnswers++; 
 }
 
 
