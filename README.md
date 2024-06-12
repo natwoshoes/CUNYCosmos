@@ -26,3 +26,29 @@ I'd like to incorporate a database to store information.
 
 <img width="846" alt="Screen Shot 2024-02-22 at 10 12 00 PM" src="https://github.com/natwoshoes/CUNYCosmos/assets/113740828/376d3a52-9619-45c2-b743-a3f069ed3e73">
 
+export class Renderer {
+  readonly #canvas: HTMLCanvasElement;
+  readonly #context: CanvasRenderingContext2D;
+
+  constructor(canvas: HTMLCanvasElement) {
+    this.#canvas = canvas;
+    this.#context = canvas.getContext("2d")!;
+  }
+
+public draw(): void {
+
+  const radiusInput = document.getElementById("radius") as HTMLInputElement;
+  const radius = parseInt(radiusInput.value);
+
+  this.#context.clearRect(0, 0, this.#canvas.width, this.#canvas.height);
+
+  const x = this.#canvas.width / 2;
+  const y = this.#canvas.height / 2;
+
+  this.#context.beginPath();
+  this.#context.arc(x, y, radius, 0, 2 * Math.PI);
+  this.#context.stroke();
+  }
+
+
+}
